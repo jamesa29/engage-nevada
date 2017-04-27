@@ -1,0 +1,161 @@
+/*
+Theme Name: Twenty Seventeen
+Theme URI: https://wordpress.org/themes/twentyseventeen/
+Author: the WordPress team
+Author URI: https://wordpress.org/
+Description: Twenty Seventeen brings your site to life with header video and immersive featured images. With a focus on business sites, it features multiple sections on the front page as well as widgets, navigation and social menus, a logo, and more. Personalize its asymmetrical grid with a custom color scheme and showcase your multimedia content with post formats. Our default theme for 2017 works great in many languages, for any abilities, and on any device.
+Version: 1.2
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: twentyseventeen
+Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+@font-face {
+	font-family: Helvetica Neue;
+	src: url('assets/fonts/HelveticaNeue-LightExt.otf');
+}
+
+body {
+	background-color: #000;
+	color: #fff;
+	background:url('assets/img/nevada-background.jpg');
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-weight: 100;
+	margin-bottom: 43px;
+	font-family: Helvetica Neue;
+}
+
+h2 {
+	font-weight: 200;
+	font-size: 1.5em;
+	letter-spacing: .05em;
+}
+
+#info {
+	width: 44%;
+	padding-left: 129px;
+	padding-top: 31px;
+	margin-right: 41px;
+}
+
+hr {
+	width: 346px;
+}
+
+.logo img {
+	width: 178px;
+	margin-left: 89px;
+}
+
+#info p {
+	padding-bottom: 12px;
+	font-size: 1em;
+	letter-spacing: 0.07em;
+}
+
+.gform_description {
+	font-size: 1.7em;
+}
+
+#form {
+	border: 1px solid white;
+	width: 404px;
+	height: 693px;
+	font-weight: 100;
+	margin-top: 27px;
+}
+
+#form .gfield_label {
+	font-size: 0.9em;
+	letter-spacing: .11em;
+	font-weight: 100;
+}
+
+
+#input_2_1, #input_2_2, #input_2_3, #input_2_4 {
+	background: transparent;
+	margin-top: -9px;
+}
+
+#form .gfield_description {
+	font-size: .9em;
+	padding-bottom: 16px;
+	margin-top: -16px;
+}
+
+label.gfield_label {
+	font-size: .8em;
+	font-weight: 100;
+}
+
+#gform_submit_button_2 {
+	background-color: #a72020;
+	border: 1px solid #a72020;
+	text-align: center;
+	width: 316px;
+	margin-left: 24px;
+}
+
+#gform_2 {
+	max-width: 94%;
+}
+
+#goform_wrapper form {
+
+}
+
+
+#label_2_5_1, #label_2_5_2 {
+	vertical-align: middle;
+	font-size: .88em;
+	font-weight: 100;
+	letter-spacing: 0.07em;
+	padding-left: 20px;
+	max-width: 96%;
+}
+
+#choice_2_5_1, #choice_2_5_2 {
+	transform: scale(1.5);
+}
+
+.copyright {
+	padding-top: 13px;
+	padding-right: 126px;
+}
+
+/* Media Queries */
+
+@media(max-width: 768px) {
+	.logo img {
+		width: 126px;
+		margin-left: -109px;
+		margin-top: -28px;
+	}
+
+	h2 {
+	margin: -37px 0 10px 35px;
+	}
+
+	.visible-xs { 
+		margin-left: -124px;
+		margin-right: -247px;
+	 }
+
+	 #input_2_1, #input_2_2, #input_2_3, #input_2_4 {
+	 	width: 95%;
+	 	height: 35px;
+	 }
+
+	 .footer {
+	 	margin: 5px auto;
+	 	text-align: left;
+	 }
+}
+
+
+
