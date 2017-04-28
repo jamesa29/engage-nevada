@@ -43,6 +43,12 @@ h2 {
 	margin-right: 41px;
 }
 
+#info p {
+	padding-bottom: 12px;
+	font-size: 1em;
+	letter-spacing: 0.07em;
+}
+
 hr {
 	width: 346px;
 }
@@ -52,10 +58,8 @@ hr {
 	margin-left: 89px;
 }
 
-#info p {
-	padding-bottom: 12px;
-	font-size: 1em;
-	letter-spacing: 0.07em;
+.row {
+	margin-left: 20px;
 }
 
 .gform_description {
@@ -76,16 +80,15 @@ hr {
 	font-weight: 100;
 }
 
-
-#input_2_1, #input_2_2, #input_2_3, #input_2_4 {
-	background: transparent;
-	margin-top: -9px;
-}
-
 #form .gfield_description {
 	font-size: .9em;
 	padding-bottom: 16px;
 	margin-top: -16px;
+}
+
+#input_2_1, #input_2_2, #input_2_3, #input_2_4 {
+	background: transparent;
+	margin-top: -9px;
 }
 
 label.gfield_label {
@@ -99,16 +102,13 @@ label.gfield_label {
 	text-align: center;
 	width: 316px;
 	margin-left: 24px;
+	padding-top: 7px;
+	padding-bottom: 7px;
 }
 
 #gform_2 {
 	max-width: 94%;
 }
-
-#goform_wrapper form {
-
-}
-
 
 #label_2_5_1, #label_2_5_2 {
 	vertical-align: middle;
